@@ -1,0 +1,36 @@
+{
+  "name": "formbase",
+  "version": "12.0.2",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "description": "Better default styles for common input elements",
+  "main": "dist/formbase.min.css",
+  "keywords": [
+    "form",
+    "text",
+    "textbox",
+    "textarea",
+    "input",
+    "checkbox",
+    "radio",
+    "control",
+    "custom"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/electerious/formbase",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/formbase.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "rosid-handler-sass": "^8.0.0"
+  }
+}
